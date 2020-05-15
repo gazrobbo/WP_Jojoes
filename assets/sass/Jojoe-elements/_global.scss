@@ -1,0 +1,76 @@
+.divider {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.mt-0 {
+	margin-top: 0;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+	
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: var(--main-color);
+}
+
+h2 {
+	font-size: 6rem;
+}
+// MOBILE
+@media screen and (max-width: 700px) {
+h1, h2 {
+	text-align: center;
+}
+}
+
+h3 {
+	font-size: 3rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+button {
+	margin-top: 50px;
+	height: 55px;
+	width: 220px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	font-size: 2rem;
+	font-weight: bold;
+	box-shadow: var(--shadow-3);
+	transition: all 0.5s;
+}
+button:hover {
+	box-shadow: var(--shadow-5);
+}
+
+.btn-white {
+	background-color: transparent;
+	border: 4px white solid;
+	color: white;
+}
+
+.btn-grey {
+	border: 4px var(--main-grey) solid;
+	color: var(--main-grey);
+}
+
+.btn-color {
+	border: 4px var(--main-color-mid) solid;
+	color: white;
+	background-color: var(--main-color-mid);
+}
+
+.color {
+	color: var(--main-color);
+}

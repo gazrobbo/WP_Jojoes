@@ -1,0 +1,45 @@
+#hero {
+	height: calc(100vh - 50px);
+	background-color: var(--main-color);
+}
+
+.hero-bg {
+	background: linear-gradient(0deg, #98C3E8 8.84%, rgb(206, 224, 240) 31.12%);
+}
+
+#hero-title {
+	color: var(--main-color);
+	font-size: 6.8rem;
+}
+
+.hero-secodary-title {
+	color: var(--main-color-mid);
+
+	padding-right: 40px;
+	line-height: 2em;
+	font-size: 2.3rem;
+	font-weight: 500;
+}
+
+
+.hero-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+		'text image'
+		'button image'
+	;
+}
+
+#hero button {
+	grid-area: button;
+	align-self: end;
+}
+
+.hero-text {
+	grid-area: text;
+}
+
+.hero-animation-container {
+	grid-area: image;
+}

@@ -1,0 +1,142 @@
+#services {
+	h2 {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 701px) and (max-width: 1029px) {
+	#services {
+		h2 {
+			text-align: unset;
+		}
+	}
+}
+
+
+.services-grid {
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:  200px 1fr 200px;
+}
+
+// DESKTOP
+@media screen and (min-width: 1030px) {
+	#services {
+		h2 {
+			grid-column: 1 / 4;
+		}
+		button {
+			grid-column: 1 / 4;	
+			justify-self: center;		
+		}
+	}
+}
+
+
+
+// TABLET
+@media screen and (max-width: 1030px) {
+	.services-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(4, 265px);
+  }
+  
+	.service-card {
+		grid-row: span 2;
+	}
+
+	.service-card:nth-child(1) {
+		grid-row: 2 / 4;
+	}
+	button {
+		align-self: end;	
+	}
+
+}
+
+// MOBILE
+@media screen and (max-width: 700px) {
+	.services-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+    grid-template-rows: unset; ;
+  }
+  
+	.service-card {
+		grid-row: unset;
+	}
+
+	.service-card:nth-child(1) {
+		grid-row: unset;
+	}
+
+	button {
+		justify-self: center;		
+	}
+}
+
+
+
+
+.service-card {
+	place-self: center;
+	display: grid;
+	max-width: 400px;
+	min-height: 530px;
+	// box-shadow: var(--shadow-3);
+	border-radius: 10px;
+	grid-template-areas: 'image' 'image' 'text' 'price';
+	grid-template-rows: 125px 125px 1fr 75px;
+
+	h3 {
+		margin-top: 5px;
+	}
+}
+
+.service-card-text,
+.service-price {
+	padding: 0 50px;
+}
+
+.service-card-shadow {
+  box-shadow: var(--shadow-3);
+  grid-row: 2 / 5;
+  grid-column: 1 / 2;
+}
+.service-image-container {
+  grid-area: image;
+ 
+}
+
+.service-image {
+  background-color: white;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+  box-shadow: var(--shadow-1);
+}
+
+.service-card-text {
+  color: var(--main-grey);
+  grid-area: text;
+	// opacity: 0.6;
+}
+
+.service-price {
+	padding: 0 50px;
+	padding-top: 25px;
+	background-color: var(--main-color-light);
+	color: var(--main-color-mid);
+  font-size: 2rem;
+  grid-area: price;
+}
+
+
+
+
+
+
+
+
