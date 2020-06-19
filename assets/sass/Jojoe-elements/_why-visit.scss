@@ -5,6 +5,7 @@
 	h2 {
 		text-align: center;
 		font-size: 4rem;
+		margin-bottom: 30px;
 	}
 }
 
@@ -16,6 +17,12 @@
 	.visit-bluebox {
 		display: grid;
 	}
+	#why-visit {
+				h2 {
+			font-size: 8vw;
+		}
+	}
+
 }
 
 
@@ -71,7 +78,7 @@
 @media screen and (max-width: 700px) {
 
 	.visit-bluebox {
-		padding: 20px 30px 300px 30px;
+		padding: 30px 30px 300px 30px;
 	}
 
 	.visit-image {
