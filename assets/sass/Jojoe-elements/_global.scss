@@ -61,13 +61,14 @@ h3 {
 	font-size: 2rem;
 	font-weight: bold;
 	box-shadow: var(--shadow-3);
-	transition: all 0.5s;
+	transition: all 0.3s;
 	text-align: center;
-	transition: all 0.5s;
+
 
 }
 .btn-norm:hover {
-	box-shadow: var(--shadow-3);
+	box-shadow: var(--shadow-5);
+	
 }
 
 .btn-white {

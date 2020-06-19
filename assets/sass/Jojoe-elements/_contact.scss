@@ -41,13 +41,21 @@ padding-bottom: 50px;
 		font-style: normal;
 		margin-bottom: 20px;
 	}
-
+	
 	address {
 		font-style: normal;
 	}
-
-
 }
+
+// MOBILE
+@media screen and (max-width: 700px) {
+	.address-container {
+		box-shadow: var(--shadow-3);
+	border-radius: 10px;
+	padding: 20px;
+	}
+}
+
 
 .map--container {
 	grid-area: map;
