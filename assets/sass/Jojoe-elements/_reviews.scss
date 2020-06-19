@@ -3,7 +3,6 @@
 	text-align: center;
 	color: white;
 	
-	
 	h2,
 	h3 {
 		color: white;
@@ -11,6 +10,7 @@
 }
 
 .review-corner {
+	min-height: 600px;
 	border-radius: 0px 200px 0px 0px;
 	background-color: var(--main-color);
 }

@@ -29,7 +29,7 @@
 				we focus on delivering exceptional customer satisfaction </P>
 		</div>
 
-		<button class="btn-white">book now</button>
+		<a href="#contact" class="btn-norm btn-white">book now</a>
 
 	</div>
 </div>

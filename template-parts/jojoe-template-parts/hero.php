@@ -1,24 +1,18 @@
-<div id="hero" class="hero-bg layout-center-content">
-  <div class="container hero-grid">
+<div id="hero" class="layout-center-content">
+	<div class="background-image hero-gradient">
+		<img src="<?php the_field('hero-image') ?>" alt="">
+	</div>
+
+	<div class="container hero-grid">
 
 
-<div class="hero-text">
-    <h1 id="hero-title">dog groomer</h1>
-    <h2 class="hero-secodary-title">We are one of the top Dog Groomers for Hull, Beverley and East Riding of Yorkshire</h2>
-  </div>
-  
-  <button class="btn-color">get in touch</button>
-  
-  
-  <div class="hero-animation-container">
-    <?php include( locate_template( 'template-parts/jojoe-template-parts/husky.php' ) ); ?>
-  </div>
-  
+		<div class="hero-text text-center">
+			<h1 id="hero-title">dog groomer</h1>
+			<h2 id="hero-secodary-title">Hull, Beverley and East Riding of Yorkshire
+			</h2>
+		</div>
 
-  
+		<a href="#contact" class=" btn-norm btn-color">get in touch</a>
 
-
-
-
-</div>
+	</div>
 </div>

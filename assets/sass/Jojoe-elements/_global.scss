@@ -1,3 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+.site-main {
+	scroll-snap-type: y proximity;
+}
+
+#hero, #services, #reviews, #about, #about, #contact {
+	scroll-snap-align: start;
+}
+
 .divider {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -39,9 +50,11 @@ h3 {
 	font-weight: bold;
 }
 
-button {
+.btn-norm {
+	margin: 0;
 	margin-top: 50px;
-	height: 55px;
+	// height: 55px;
+	padding: 15px;
 	width: 220px;
 	text-transform: uppercase;
 	border-radius: 10px;
@@ -49,9 +62,12 @@ button {
 	font-weight: bold;
 	box-shadow: var(--shadow-3);
 	transition: all 0.5s;
+	text-align: center;
+	transition: all 0.5s;
+
 }
-button:hover {
-	box-shadow: var(--shadow-5);
+.btn-norm:hover {
+	box-shadow: var(--shadow-3);
 }
 
 .btn-white {

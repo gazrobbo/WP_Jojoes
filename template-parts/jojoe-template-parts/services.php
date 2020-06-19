@@ -22,6 +22,8 @@ while ( have_posts() ) : the_post();
 				<div class="service-image-container layout-center-content">
 					<div class="service-image">
 
+					<img src=" <?php the_field('image') ?>" alt="">
+					
 					</div>
 				</div>
 
@@ -48,7 +50,7 @@ endwhile; // End of the loop.
 			<?php wp_reset_query(); ?>
 
 
-			<button class="hero-button btn-color">book now</button>
+			<a href="#contact" class="btn-norm  btn-color">book now</a>
 		</div>
 
 

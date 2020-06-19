@@ -1,5 +1,5 @@
 <div id="why-visit" class="layout-center-content  divider">
-	<div class="container">
+	<div class="container why-visit-container">
 
 
 
@@ -25,8 +25,9 @@
 					let
 					them play with the kids and get on the furniture. They should be clean and your local dog groomer is well
 					equipped
-					for this.
+					for this.<span id="dots">...</span>
 				</p>
+				<span id="more">
 				<h3>
 					Thick or matted fur can conceal problems
 				</h3>
@@ -101,7 +102,8 @@
 					I hope you found this information helpful. To keep your dog in good health and looking its best, book an
 					appointment with your local dog groomer.
 				</p>
-				<button class="hero-button btn-white">read more</button>
+</span>
+				<button onclick="myFunction()" id="readMoreBtn" class="btn-norm btn-white">read more</button>
 			</div>
 
 <div class="visit-image background-image">
