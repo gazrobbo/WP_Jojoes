@@ -7,4 +7,4 @@ function ign_add_scrollmagic(){
 	wp_enqueue_script( 'scrollMagic-gsap', 'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js', array( 'jquery' ) );
 	wp_enqueue_script( 'scrollmagic-indicators', 'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js' );
 }
-//add_action( 'wp_enqueue_scripts', 'ign_add_scrollmagic' );
+add_action( 'wp_enqueue_scripts', 'ign_add_scrollmagic' );
