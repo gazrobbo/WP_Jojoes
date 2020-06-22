@@ -50,7 +50,7 @@
 	.services-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: repeat(4, 265px);
+		grid-template-rows: repeat(3, 265px) 1fr;
   }
   
 	.service-card {
