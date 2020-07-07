@@ -107,7 +107,8 @@
 			</div>
 
 <div class="visit-image background-image">
-			<img class="" src="http://jojoes-dog-grooming.local/wp-content/uploads/2020/05/adorable-blur-breed-close-up-406014-scaled.jpg" alt="">
+		
+			<img src="<?php the_field('why-visit-image') ?>" alt="">
 		</div>
 
 		</div>

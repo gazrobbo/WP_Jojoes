@@ -153,6 +153,10 @@ msgstr ""
 msgid "%s<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
+#: landing-page.php:15
+msgid "Landing page layout"
+msgstr ""
+
 #: search.php:23
 msgid "Search Results for: %s"
 msgstr ""

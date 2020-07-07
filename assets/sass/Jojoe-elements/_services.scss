@@ -17,28 +17,29 @@
 	display: grid;
 	grid-gap: 50px;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows:  200px 1fr 200px;
+	grid-template-rows: 200px 1fr 200px;
 }
 
 // DESKTOP
 @media screen and (min-width: 1030px) {
 	.services-grid {
 
-		grid-template-rows:  100px 1fr 120px;
+		grid-template-rows: 100px 1fr 120px;
 	}
 
-	.service-card {	
+	.service-card {
 		min-height: 560px;
 	}
 
-	
+
 	#services {
 		h2 {
 			grid-column: 1 / 4;
 		}
+
 		.btn-norm {
-			grid-column: 1 / 4;	
-			justify-self: center;		
+			grid-column: 1 / 4;
+			justify-self: center;
 		}
 	}
 }
@@ -51,8 +52,8 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: repeat(3, 265px) 1fr;
-  }
-  
+	}
+
 	.service-card {
 		grid-row: span 2;
 	}
@@ -60,8 +61,9 @@
 	.service-card:nth-child(1) {
 		grid-row: 2 / 4;
 	}
+
 	.btn-norm {
-		align-self: end;	
+		align-self: end;
 	}
 
 }
@@ -71,9 +73,19 @@
 	.services-grid {
 		display: grid;
 		grid-template-columns: 1fr;
-    grid-template-rows: unset; ;
-  }
-  
+		grid-template-rows: unset;
+		;
+
+		
+	
+		h2 {
+			margin-bottom: 0px;
+		}
+	
+
+
+	}
+
 	.service-card {
 		grid-row: unset;
 	}
@@ -83,8 +95,9 @@
 	}
 
 	.btn-norm {
-		justify-self: center;		
+		justify-self: center;
 	}
+
 }
 
 
@@ -95,7 +108,7 @@
 	display: grid;
 	max-width: 400px;
 	border-radius: 10px;
-	grid-template-areas: 'image' 'image' 'text' 'price';
+	grid-template-areas: 'image''image''text''price';
 	grid-template-rows: 125px 125px 1fr 75px;
 
 	h3 {
@@ -109,31 +122,32 @@
 }
 
 .service-card-shadow {
-  box-shadow: var(--shadow-3);
-  grid-row: 2 / 5;
-  grid-column: 1 / 2;
+	box-shadow: var(--shadow-3);
+	grid-row: 2 / 5;
+	grid-column: 1 / 2;
 }
+
 .service-card-shadow:hover {
 	box-shadow: var(--shadow-6);
- }
+}
 
 .service-image-container {
-  grid-area: image;
- 
+	grid-area: image;
+
 }
 
 .service-image {
 	overflow: hidden;
-  background-color: white;
+	background-color: white;
 	border-radius: 50%;
 	height: 200px;
 	width: 200px;
-  box-shadow: var(--shadow-2);
+	box-shadow: var(--shadow-2);
 }
 
 .service-card-text {
-  color: var(--main-grey);
-  grid-area: text;
+	color: var(--main-grey);
+	grid-area: text;
 	// opacity: 0.6;
 }
 
@@ -142,14 +156,6 @@
 	padding-top: 25px;
 	background-color: var(--main-color-light);
 	color: var(--main-color-mid);
-  font-size: 2rem;
-  grid-area: price;
+	font-size: 2rem;
+	grid-area: price;
 }
-
-
-
-
-
-
-
-

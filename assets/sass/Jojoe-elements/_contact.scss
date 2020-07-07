@@ -1,5 +1,5 @@
 #contact {
-padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 .contact-grid {
@@ -41,7 +41,7 @@ padding-bottom: 50px;
 		font-style: normal;
 		margin-bottom: 20px;
 	}
-	
+
 	address {
 		font-style: normal;
 	}
@@ -51,8 +51,14 @@ padding-bottom: 50px;
 @media screen and (max-width: 700px) {
 	.address-container {
 		box-shadow: var(--shadow-3);
-	border-radius: 10px;
-	padding: 20px;
+		border-radius: 10px;
+		padding: 20px;
+	}
+
+	#contact {
+		h2 {
+			font-size: 13vw;
+		}
 	}
 }
 
