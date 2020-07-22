@@ -22,7 +22,13 @@ while ( have_posts() ) : the_post();
 				<div class="service-image-container layout-center-content">
 					<div class="service-image">
 
-					<img src=" <?php the_field('image') ?>" alt="">
+					<?php 
+		$image = get_field('image');
+		$size = 'full'; // (thumbnail, medium, large, full or custom size)
+		if( $image ) {
+				echo wp_get_attachment_image( $image, $size );
+		}
+		?>
 					
 					</div>
 				</div>

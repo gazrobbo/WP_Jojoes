@@ -1,12 +1,24 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
-.site-main {
+
+body {
 	scroll-snap-type: y proximity;
 }
 
-#hero, #services, #reviews, #about, #about, #contact {
+.site-main {
+	scroll-snap-type: y proximity;
+	overflow: auto;
+}
+
+#hero,
+#services,
+#reviews,
+#about,
+#about,
+#contact {
 	scroll-snap-align: start;
+
 }
 
 .divider {
@@ -14,13 +26,22 @@ html {
 	margin-bottom: 100px;
 }
 
+// MOBILE
+@media screen and (max-width: 700px) {
+	.divider {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+
 .mt-0 {
 	margin-top: 0;
 }
+
 .mb-0 {
 	margin-bottom: 0;
 }
-	
+
 h1,
 h2,
 h3,
@@ -35,11 +56,14 @@ h6 {
 h2 {
 	font-size: 6rem;
 }
+
 // MOBILE
 @media screen and (max-width: 700px) {
-h1, h2 {
-	text-align: center;
-}
+
+	h1,
+	h2 {
+		text-align: center;
+	}
 }
 
 h3 {
@@ -61,14 +85,15 @@ h3 {
 	font-size: 2rem;
 	font-weight: bold;
 	box-shadow: var(--shadow-3);
-	transition: all 0.3s;
+	transition: all 0.2s;
 	text-align: center;
 
 
 }
+
 .btn-norm:hover {
 	box-shadow: var(--shadow-5);
-	
+
 }
 
 .btn-white {
@@ -98,7 +123,8 @@ h3 {
 	color: white;
 }
 
-.entry-header, .page-header {
+.entry-header,
+.page-header {
 	// min-height: 200px;
 	background-position: center;
 }
@@ -114,4 +140,17 @@ h3 {
 		0 5px 10px rgba(0, 0, 0, .25),
 		0 10px 10px rgba(0, 0, 0, .2),
 		0 20px 20px rgba(0, 0, 0, .15);
+}
+
+
+
+// FOOTER
+
+footer {
+	svg.icon {
+		margin: auto;
+		height: 2em;
+		width: 2em;
+		display: block;
+	}
 }

@@ -204,7 +204,7 @@ msgstr ""
 msgid "Fump"
 msgstr ""
 
-#: template-parts/footer/site-info.php:12
+#: template-parts/footer/site-info.php:18
 msgid "© %s Created by %s with Ignition. Proudly powered by %s"
 msgstr ""
 

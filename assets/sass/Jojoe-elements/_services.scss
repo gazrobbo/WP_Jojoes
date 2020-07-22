@@ -76,14 +76,15 @@
 		grid-template-rows: unset;
 		;
 
-		
-	
 		h2 {
 			margin-bottom: 0px;
 		}
-	
 
-
+		.service-card {
+			h3 {
+				font-size: 7.5vw;
+			}
+		}
 	}
 
 	.service-card {
@@ -96,6 +97,7 @@
 
 	.btn-norm {
 		justify-self: center;
+		margin-top: 5px;
 	}
 
 }
@@ -120,6 +122,8 @@
 .service-price {
 	padding: 0 50px;
 }
+
+
 
 .service-card-shadow {
 	box-shadow: var(--shadow-3);
@@ -158,4 +162,13 @@
 	color: var(--main-color-mid);
 	font-size: 2rem;
 	grid-area: price;
+}
+
+@media screen and (max-width: 400px) {
+
+	.service-card-text,
+	.service-price {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }

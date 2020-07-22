@@ -1,6 +1,12 @@
 <div id="hero" class="layout-center-content">
 	<div class="background-image hero-gradient">
-		<img src="<?php the_field('hero-image') ?>" alt="">
+	<?php 
+		$image = get_field('hero-image');
+		$size = 'full'; // (thumbnail, medium, large, full or custom size)
+		if( $image ) {
+				echo wp_get_attachment_image( $image, $size );
+		}
+		?>
 	</div>
 
 	<div class="container hero-grid">
