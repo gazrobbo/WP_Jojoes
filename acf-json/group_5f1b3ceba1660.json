@@ -1,0 +1,40 @@
+{
+    "key": "group_5f1b3ceba1660",
+    "title": "landing page only",
+    "fields": [
+        {
+            "key": "field_5f1b3d09082aa",
+            "label": "slider shortcode",
+            "name": "slider_shortcode",
+            "type": "acf_smartslider3",
+            "instructions": "add slider if avalible",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "admin_only": 0,
+            "ign_set_data": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "landing-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1595620848
+}

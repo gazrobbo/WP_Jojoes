@@ -20,21 +20,31 @@ Template Post Type: page
 
 get_header(); ?>
 
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
-            
-
-
-        <?php include( locate_template( 'template-parts/jojoe-template-parts/hero.php' ) ); ?>
-        <?php include( locate_template( 'template-parts/jojoe-template-parts/services.php' ) ); ?>
-        <?php include( locate_template( 'template-parts/jojoe-template-parts/about-landing-page.php' ) ); ?>
-        <?php include( locate_template( 'template-parts/jojoe-template-parts/reviews.php' ) ); ?>
-        <?php include( locate_template( 'template-parts/jojoe-template-parts/why-visit.php' ) ); ?>
-        <?php include( locate_template( 'template-parts/jojoe-template-parts/contact.php' ) ); ?>
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 
 
 
-        </main><!-- #main -->
-    </div><!-- #primary -->
+		<?php include( locate_template( 'template-parts/jojoe-template-parts/hero.php' ) ); ?>
+		<?php include( locate_template( 'template-parts/jojoe-template-parts/services.php' ) ); ?>
+		<?php include( locate_template( 'template-parts/jojoe-template-parts/about-landing-page.php' ) ); ?>
+		<?php include( locate_template( 'template-parts/jojoe-template-parts/reviews.php' ) ); ?>
+		<!-- <?php 
+				$content = get_field('slider_shortcode');
+				?>
+		<?php if ($content):				
+                    echo do_shortcode($content);
+                    ?>
+
+		<?php endif; ?> -->
+		<?php include( locate_template( 'template-parts/jojoe-template-parts/why-visit.php' ) ); ?>
+		<?php include( locate_template( 'template-parts/jojoe-template-parts/contact.php' ) ); ?>
+
+
+
+
+
+	</main><!-- #main -->
+</div><!-- #primary -->
 
 <?php get_footer();
