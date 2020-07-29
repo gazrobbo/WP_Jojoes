@@ -46,5 +46,7 @@
 
 		<a href="#contact" class=" btn-norm btn-color">book now</a>
 
+		
+
 	</div>
 </div>
