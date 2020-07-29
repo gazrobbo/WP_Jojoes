@@ -44,7 +44,7 @@
 			</h2>
 		</div>
 
-		<a href="#contact" class=" btn-norm btn-color">get in touch</a>
+		<a href="#contact" class=" btn-norm btn-color">book now</a>
 
 	</div>
 </div>
