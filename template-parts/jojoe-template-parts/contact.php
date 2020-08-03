@@ -20,7 +20,7 @@
         <i class="svg-icon icon-mobile"></i>
 				<a class="phone-number" href="tel:+447793585940">07454 375852 </a><br>
 				<i class="svg-icon icon-envelope"></i>
-				<a href="mailto:hello@jojoesdoggrooming.co.uk">hello@jojoesdoggrooming.co.uk</a>
+				<a class="email" href="mailto:hello@jojoesdoggrooming.co.uk">hello@jojoesdoggrooming.co.uk</a>
 				</address>
 
 				<div id="open-hours"></div>

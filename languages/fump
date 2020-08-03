@@ -24,12 +24,6 @@ msgstr ""
 msgid "Go To Home"
 msgstr ""
 
-#. translators: %s: post title
-#: comments.php:36
-msgctxt "comments title"
-msgid "One Reply to &ldquo;%s&rdquo;"
-msgstr ""
-
 #. translators: 1: number of comments, 2: post title
 #: comments.php:40
 msgctxt "comments title"
@@ -37,6 +31,11 @@ msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
+
+#: comments.php:36
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
 
 #: comments.php:60
 msgid " Reply"
@@ -157,12 +156,12 @@ msgstr ""
 msgid "Landing page layout"
 msgstr ""
 
-#: search.php:23
-msgid "Search Results for: %s"
-msgstr ""
-
 #: search.php:25
 msgid "Nothing Found"
+msgstr ""
+
+#: search.php:23
+msgid "Search Results for: %s"
 msgstr ""
 
 #: search.php:50
