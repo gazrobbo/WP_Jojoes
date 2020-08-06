@@ -60,8 +60,6 @@
 					Walking on long and curled nails can throw the dog's structural alignment out of whack. Some over-grown nails
 					can
 					curl back and puncture the foot pad. Ouch! Hair can become balled up between the pads and contain stickers.
-					It’s
-					.
 				</p>
 				<h3>
 					Dead fur needs to be removed manually on many breeds
